@@ -3,6 +3,7 @@ import Greet from "./Components/Greet";
 import Welcome from "./Components/Welcome";
 import Message from "./Components/Message";
 import Counter from "./Components/Counter";
+import FunctionClick from "./Components/FunctionClick";
 
 export default function App() {
   return (
@@ -18,11 +19,13 @@ export default function App() {
 
       <Welcome name="Naga" />
       <Welcome name="Anu" />*/}
-      <Welcome name="Sanu" />
+      {/* <Welcome name="Sanu" /> */}
 
       {/* <Message /> */}
 
-      <Counter />
+      {/* <Counter /> */}
+
+      <FunctionClick />
     </div>
   );
 }
