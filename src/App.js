@@ -17,8 +17,8 @@ export default function App() {
       <Greet name="Sanavi" />
 
       <Welcome name="Naga" />
-      <Welcome name="Anu" />
-      <Welcome name="Sanu" /> */}
+      <Welcome name="Anu" />*/}
+      <Welcome name="Sanu" />
 
       {/* <Message /> */}
 
