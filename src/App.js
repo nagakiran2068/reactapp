@@ -4,6 +4,7 @@ import Welcome from "./Components/Welcome";
 import Message from "./Components/Message";
 import Counter from "./Components/Counter";
 import FunctionClick from "./Components/FunctionClick";
+import EventBind from "./Components/EventBind";
 
 export default function App() {
   return (
@@ -25,7 +26,9 @@ export default function App() {
 
       {/* <Counter /> */}
 
-      <FunctionClick />
+      {/* <FunctionClick /> */}
+
+      <EventBind />
     </div>
   );
 }
