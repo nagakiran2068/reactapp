@@ -4,7 +4,9 @@ class ChildComponent extends Component {
   render() {
     return (
       <div>
-        <button onClick={this.props.greethandler}>Greet parent</button>
+        <button onClick={() => this.props.greethandler("child")}>
+          Greet parent
+        </button>
       </div>
     );
   }
