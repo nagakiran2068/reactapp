@@ -5,6 +5,7 @@ import Message from "./Components/Message";
 import Counter from "./Components/Counter";
 import FunctionClick from "./Components/FunctionClick";
 import EventBind from "./Components/EventBind";
+import ParentComponent from "./Components/ParentComponent";
 
 export default function App() {
   return (
@@ -28,7 +29,9 @@ export default function App() {
 
       {/* <FunctionClick /> */}
 
-      <EventBind />
+      {/* <EventBind /> */}
+
+      <ParentComponent />
     </div>
   );
 }
